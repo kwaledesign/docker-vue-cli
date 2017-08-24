@@ -2,6 +2,7 @@ version: '3'
 
 services:
   web:
-    image: ./Dockerfile
+    image: ebiven/vue-cli
     volumes:
       - .:/code
+
